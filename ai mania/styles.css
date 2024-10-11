@@ -1,0 +1,46 @@
+/* Apply darkish blue gradient background to the About page */
+body {
+    background: linear-gradient(135deg, #003366 0%, #00509e 100%);
+  }
+  
+  /* Navbar dark blue color */
+  .navbar-dark.bg-dark-blue {
+    background-color: #002366;
+  }
+  
+  .text-light {
+    color: #ffffff;
+  }
+  
+  /* Card styling */
+  .member-card {
+    background-color: #ffffff;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    transition: transform 0.2s; /* Animation for hover effect */
+  }
+  
+  .member-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #555555;
+  }
+  
+  /* Blockquote styling */
+  .blockquote {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color: #f8f9fa;
+  }
+  
+  
+  
